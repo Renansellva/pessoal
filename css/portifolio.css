@@ -1,0 +1,130 @@
+/*main
+{
+    
+    width: 100%;
+    height: 50vh;
+    color: aliceblue;
+    background: black;
+}
+
+img{     width: 150px;
+    height: 250px;
+    object-fit: fill;
+    aspect-ratio: 1/1;
+    padding: 50px;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ width: 100% ;
+    background-color: antiquewhite;
+}
+header {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between; /* Alinha os itens nas extremidades */
+    padding: 27px;
+}
+
+.icon {
+    font-size: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.PROJETO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1; /* Permite que o elemento ocupe o espaço disponível */
+    gap: 40px;
+}
+
+main{
+    height: 100vh;
+     
+}
+.h1  {
+    text-align: center;
+    margin-top: 3%;
+}
+.conteudo-principal{
+/* gap: 25px; */
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 2%; 
+    /* justify-content: center; */
+    align-items: center;  
+}
+.imagem-principal{
+width: 20%;
+height: auto;
+margin-left: 8%;
+
+}
+.texto-principal{
+    width: 50%;
+    margin-right: 5%;
+}
+section{ 
+    height: auto;
+
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 10px ;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 30%;
+    align-items: center;
+    gap: 15px;
+}
+.card-img{
+    width: 60%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    
+}
+.card p{
+    margin: 15px;
+}
+.imagens{
+    width: 100%;
+    text-align: center;
+    margin-top: 140px;
+}
+
+ .html {
+    width: 7%;
+   /* margin: 12%; */
+   gap: 15px;
+aspect-ratio: 1/1;
+    /* border-radius: 100%; */
+    /* padding-bottom: 15px; */
+}
+header nav{
+    list-style-type:none; 
+    color: rgb(245, 25, 9); 
+}
+
+
+   
+
+
+
+
+
+
+
